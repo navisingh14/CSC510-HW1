@@ -13,4 +13,4 @@ nsingh9@ncsu.edu
 #### Moodle Profile Link: 
 [Moodle Profile - Navjot Singh](https://moodle-courses1718.wolfware.ncsu.edu/user/profile.php?id=100604)
 
-![img](leh-ladakh.png)
+![img](leh-ladakh.jpg)

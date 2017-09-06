@@ -1,4 +1,4 @@
-# CSC 510 HW0
+# CSC 510 HW1
 
 ### Name: 
 Navjot Singh
@@ -13,15 +13,3 @@ https://csc510-fall2017.slack.com/team/nsingh9
 #### Moodle Profile Link: 
 https://moodle-courses1718.wolfware.ncsu.edu/user/profile.php?id=100604
 
-#### Learning Git Screenshot
-![img](Git.png)
-
-#### Hook Script
-```shell
-#!/bin/sh
-sensible-browser https://www.youtube.com/
-exit 0
-```
-
-#### Post-Commit hook link:
-[Post-commit hook video link](https://www.youtube.com/watch?v=_CRtaFXDtZg)  

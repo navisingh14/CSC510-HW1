@@ -9,4 +9,4 @@ nsingh9@ncsu.edu
 
 
 #### Gh-pages link:
-[Webpage using gh-pages branch](https://github.ncsu.edu/nsingh9/gh-pages/)  
+[Webpage using gh-pages branch](https://pages.github.ncsu.edu/nsingh9/CSC510-HW1/)  

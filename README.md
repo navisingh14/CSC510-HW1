@@ -12,6 +12,7 @@ nsingh9@ncsu.edu
 [Webpage using gh-pages branch](https://pages.github.ncsu.edu/nsingh9/CSC510-HW1/)  
 
 ### Code
+```javascript
 var request = require('request');
 var fs = require("fs");
 var Promise = require('bluebird');
@@ -35,7 +36,7 @@ var number = '1';
 //createNewIssue(userId, repo);
 //editRepo(userId, repo);
 listReactions(userId,repo, number);
-
+```
 
 #### List Branches
 ```javascript 

@@ -38,7 +38,8 @@ listReactions(userId,repo, number);
 
 
 #### List Branches
-```javascript function listBranches(owner,repo)
+```javascript 
+function listBranches(owner,repo)
 {
 
 	var options = {
@@ -142,7 +143,8 @@ function createNewIssue(owner, repo)
 }
 ```
 #### Editing a repo
-```javascript function editRepo(owner, repo)
+```javascript 
+function editRepo(owner, repo)
 {
 
 	var options = {

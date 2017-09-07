@@ -7,7 +7,6 @@ Navjot Singh
 ### Unity Id: 
 nsingh9@ncsu.edu
 
-
 ### Gh-pages link:
 [Webpage using gh-pages branch](https://pages.github.ncsu.edu/nsingh9/CSC510-HW1/)  
 
@@ -192,6 +191,18 @@ function listReactions(owner,repo, number)
 ### Answers to concepts section: 
 #### Explain some additional concerns related to using REST apis.
 Ans.
+*
+
 
 #### Compare and contrast the benefits and disadvantages of using a RESTful architecture vs. a graph query language. See http://graphql.org/ for details.
 Ans.
+* GraphQL API works well even for the 
+The GraphQL API acts as a datastore 
+GraphQL puts responsibilty on the client, because the backing API is reduced to be a datastore that just needs to be queried. REST on the other hand enforces the behaviour of the client and therefore reduces responsibility on it. The client gets reduced to be something similar to a browser.
+* 
+
+
+Sources:
+https://stackoverflow.com/questions/41141577/graphql-or-rest
+https://news.ycombinator.com/item?id=13759520
+https://medium.freecodecamp.org/rest-apis-are-rest-in-peace-apis-long-live-graphql-d412e559d8e4

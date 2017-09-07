@@ -23,9 +23,6 @@ var token = "token " + "<Your Token>";
 var userId = "navisingh14";
 
 var urlRoot = "https://api.github.com";
-// NCSU Enterprise endpoint:
-// https://github.ncsu.edu/api/v3
-
 var repo = "REST-SELENIUM";
 var newRepoName = "CSC510-HW1"; 
 var number = '1';
@@ -42,7 +39,6 @@ listReactions(userId,repo, number);
 ```javascript 
 function listBranches(owner,repo)
 {
-
 	var options = {
 		url: urlRoot + '/repos/' + owner + "/" + repo + "/branches",
 		method: 'GET',
@@ -64,15 +60,12 @@ function listBranches(owner,repo)
 			console.log( name );
 		}
 	});
-
-	
 }
 ```
 #### Creating a new repo
 ```javascript
 function createNewRepo(newRepoName)
 {
-
 	var options = {
 		url: urlRoot + '/user/repos',
 		method: 'POST',
@@ -90,8 +83,6 @@ function createNewRepo(newRepoName)
 			"has_projects": true,
 			"has_wiki": true
 		  }
-
-
 	};
 
 	// Send a http request to url and specify a callback that will be called upon its return.
@@ -100,8 +91,6 @@ function createNewRepo(newRepoName)
 //		console.log( body );
 		console.log( response.statusCode );
 	});
-
-	
 }
 ```
 
@@ -109,7 +98,6 @@ function createNewRepo(newRepoName)
 ```javascript
 function createNewIssue(owner, repo)
 {
-
 	var options = {
 		url: urlRoot + '/repos/' + owner + "/" + repo + "/issues",
 		method: 'POST',
@@ -127,8 +115,6 @@ function createNewIssue(owner, repo)
 	//		  "bug"
 	//		]
 		  }
-
-
 	};
 
 	// Send a http request to url and specify a callback that will be called upon its return.
@@ -139,15 +125,12 @@ function createNewIssue(owner, repo)
 		console.log( response );
 		
 	});
-
-	
 }
 ```
 #### Editing a repo
 ```javascript 
 function editRepo(owner, repo)
 {
-
 	var options = {
 		url: urlRoot + '/repos/' + owner + '/' + repo,
 		method: 'PATCH',
@@ -165,8 +148,6 @@ function editRepo(owner, repo)
 			"has_projects": true,
 			"has_wiki": false
 		  }
-
-
 	};
 
 	// Send a http request to url and specify a callback that will be called upon its return.
@@ -183,7 +164,6 @@ function editRepo(owner, repo)
 ```javascript 
 function listReactions(owner,repo, number)
 {
-
 	var options = {
 		url: urlRoot + '/repos/' + owner + "/" + repo + "/issues/" + number + "/reactions" ,
 		method: 'GET',
@@ -206,14 +186,8 @@ function listReactions(owner,repo, number)
 			console.log( name );
 		}
 	});
-
-	
 }
 ```
-
-
-
-
 
 ### Answers to concepts section: 
 #### Explain some additional concerns related to using REST apis.

@@ -14,7 +14,7 @@ nsingh9@ncsu.edu
 [Link to the functions](https://github.ncsu.edu/nsingh9/CSC510-HW1/blob/master/script.js)
 
 ### Question Answers
-[Answers to concepts]()
+[Answers to concepts](https://github.ncsu.edu/nsingh9/CSC510-HW1/blob/master/Question%20Answers.pdf)
 
 
 

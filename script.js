@@ -51,6 +51,8 @@ function getYourRepos(userName)
 
 }
 
+
+//listing the branches in a particular repo
 function listBranches(owner,repo)
 {
 
@@ -79,6 +81,7 @@ function listBranches(owner,repo)
 	
 }
 
+//creating a new repo
 function createNewRepo(newRepoName)
 {
 
@@ -113,7 +116,7 @@ function createNewRepo(newRepoName)
 	
 }
 
-
+//creating new issues for a particular repo
 function createNewIssue(owner, repo)
 {
 
@@ -150,7 +153,7 @@ function createNewIssue(owner, repo)
 	
 }
 
-
+//editing a particular repo
 function editRepo(owner, repo)
 {
 
@@ -184,7 +187,7 @@ function editRepo(owner, repo)
 	});
 }
 
-
+//listing reactions for a particular repo and issue number
 function listReactions(owner,repo, number)
 {
 
